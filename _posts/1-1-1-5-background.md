@@ -77,3 +77,14 @@ print actual_size, hll_size
 print "Error: %s%" % (100 * actual_size - hll_size) / actual_size
 ```
 
+--
+
+## Results*
+
+Lorem Size | Actual | HLL Size | Error
+-----------|--------|----------|--------
+   10,000  | 189    | 188      |  .529 %
+  100,000  | 843    | 821      | 2.610 %
+1,000,000  | 1,302  | 1,294    | 0.614 %
+
+<p class="fragment">*3 points don't a trend make</p>
