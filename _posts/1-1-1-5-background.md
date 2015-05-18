@@ -50,6 +50,7 @@ by using harmonic means.
 <li class="fragment">Much smaller variance: 96% confident that error is within
   $1.04/\sqrt{4m}$</li>
 </ul>
+
 --
 
 ## How about some benchmarks?
