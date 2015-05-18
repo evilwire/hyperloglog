@@ -88,8 +88,9 @@ http://algo.inria.fr/flajolet/Publications/DuFl03-LNCS.pdf
 
 <li class="fragment">Still linear time to calculate size</li>
 <li class="fragment">Error is about $1.3/\sqrt{m}$ where $m$ is the number of registers used</li>
-<li class="fragment">Can actually take unions/intersections without losing accuracy<li>
+<li class="fragment">Can actually take unions/intersections without losing accuracy</li>
 </ul>
+
 --
 
 ## Why does it *not* &nbsp; work?
