@@ -68,7 +68,8 @@ with open("lorem") as lorem_file:
     LOREM = lorem_file.read()
 
 for word in LOREM.split(" "):
-    SET.push(word)
+    word.strip(".,:;").lower()
+    SET.add(word)
     REDIS_CLIENT.pfadd("lorem", word)
 
 actual_size, hll_size = len(SET), REDIS_CLIENT.pfcount("lorem")
