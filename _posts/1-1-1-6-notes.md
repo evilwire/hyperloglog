@@ -25,11 +25,13 @@ class HyperLogLog(LogLog):
 
 ... They may want to represent cliques as HLL.
 
-- clique overlap analytics would be $O(n + m)$ algorithm
-  (as opposed to $O(nm)$) {% fragment %}
-- we can predict clique properties based on clique "distance" {% fragment %}
-- we can increase interactivity of the overlap and property analytics via a
-  combination of real-time and batch processes {% fragment %}
+<ul>
+<li class="fragment">clique overlap analytics would be $O(n + m)$ algorithm
+  (as opposed to $O(nm)$)</li>
+<li class="fragment">we can predict clique properties based on clique "distance"</li>
+<li class="fragment">we can increase interactivity of the overlap and property analytics via a
+  combination of real-time and batch processes</li>
+</ul>
 
 ---
 

@@ -1,7 +1,9 @@
 ## Agenda
 
-- The LogLog algorithm {% fragment %}
+<ul>
+<li class="fragment">The LogLog algorithm</li>
 
-- The HyperLogLog algorithm {% fragment %}
+<li class="fragment">The HyperLogLog algorithm</li>
 
-- A Facebook case study (time permitting) {% fragment %}
+<li class="fragment">A Facebook case study (time permitting)</li>
+</ul>

@@ -8,8 +8,10 @@
 
 $\frac{k}{\frac{1}{n_1} + \cdots + \frac{1}{n_k}}$
 
+<p class="fragment">
 For example, the harmonic average of 2, 2, 2 is 2,
-and harmonic average of 1, 2, 3 is $18/11 \approx 1.636$ {% fragment %}
+and harmonic average of 1, 2, 3 is $18/11 \approx 1.636$
+</p>
 
 --
 
@@ -42,11 +44,12 @@ by using harmonic means.
 
 ## What are the benefits?
 
-- LogLog computation space {% fragment %}
-- Linear algorithm {% fragment %}
-- Much smaller variance: 96% confident that error is within
-  $1.04/\sqrt{4m}$ {% fragment %}
-
+<ul>
+<li class="fragment">LogLog computation space</li>
+<li class="fragment">Linear algorithm</li>
+<li class="fragment">Much smaller variance: 96% confident that error is within
+  $1.04/\sqrt{4m}$</li>
+</ul>
 --
 
 ## How about some benchmarks?

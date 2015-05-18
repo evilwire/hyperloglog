@@ -32,4 +32,4 @@ where $n$ is the cardinality.
 
 ### Q: Can we sacrifice accuracy for speed and space?
 
-Yes, via probabilistic algorithms like HyperLogLog {% fragment %}
+<p class="fragment">Yes, via probabilistic algorithms like HyperLogLog</p>
