@@ -25,7 +25,7 @@ Expect 4, but &nbsp; `naivesize` &nbsp; tells me 6.
 
 ## What does it take to size multisets?
 
-For *exact* size: $O(n)$ for space, and $O(n)$ for time,
+For *exact* size: $O(n)$ for space, and $O(n\log(n))$ for time,
 where $n$ is the cardinality.
 
 ---
